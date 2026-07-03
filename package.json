@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aswinianmangari/autosuggest/issues"
   },
-  "homepage": "https://github.com/aswinianmangari/autosuggest#readme"
+  "homepage": "https://github.com/aswinianmangari/autosuggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
