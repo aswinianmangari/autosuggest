@@ -38,6 +38,11 @@
                 width:30%;
                 margin-left:36%;
             }
+            #sug div{
+                padding:10px;
+                border:1px solid black;
+                border-radius:15px;
+            }
         </style>
     </head>
      <body>
@@ -81,12 +86,14 @@
            })
            .then(function(data){
             console.log(data);
-            
+
             var resultArray=data.results;
             var res="";
+            
             for(var i=0;i<resultArray.length;i++){
                 res+="<div>"+resultArray[i].text+"</div>";
             }
+            
             suggestionBox.innerHTML=res;
            })
          
